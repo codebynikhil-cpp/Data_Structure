@@ -5,27 +5,23 @@ using namespace std;
 
 class Solution {
 public:
-	int minSwaps(vector<int>& nums) {
-		int ones = accumulate(nums.begin(), nums.end(), 0);
-		if (ones <= 1) {
-			return 0;
-		}
+    int minSwaps(vector<int>& nums) {
+        int k = 0;
+        int n = nums.size();
+        nums.insert(nums.end(), nums.begin(), nums.end());
+        for(int i=0; i<n; i++){
+            if(nums[i] == 1) k++;
+        }
 
-		int zeros = 0;
-		int bestZeros = nums.size();
-		for (int i = 0; i < static_cast<int>(nums.size()) + ones - 1; i++) {
-			if (nums[i % nums.size()] == 0) {
-				zeros++;
-			}
-			if (i >= ones) {
-				zeros -= nums[(i - ones) % nums.size()] == 0;
-			}
-			if (i >= ones - 1) {
-				bestZeros = min(bestZeros, zeros);
-			}
-		}
-		return bestZeros;
-	}
+        int ans = 0, sum = 0, minSwap = INT_MAX;
+        for(int i = 0; i<k; i++) sum += nums[i];
+        for(int i = k; i<2*n; i++){
+            ans = k - sum;
+            minSwap = min(minSwap, ans);
+            sum += nums[i] - nums[i-k];
+        }
+        return minSwap;
+    }
 };
 
 

@@ -5,32 +5,20 @@ using namespace std;
 
 class Solution {
   public:
-	int search(string &pat, string &txt) {
-		if (pat.size() > txt.size()) {
-			return 0;
-		}
-
-		array<int, 256> required{};
-		array<int, 256> window{};
-		for (char ch : pat) {
-			required[static_cast<unsigned char>(ch)]++;
-		}
-
-		int count = 0;
-		int windowSize = pat.size();
-		for (int i = 0; i < static_cast<int>(txt.size()); i++) {
-			window[static_cast<unsigned char>(txt[i])]++;
-			if (i >= windowSize) {
-				window[static_cast<unsigned char>(txt[i - windowSize])]--;
-			}
-			if (i >= windowSize - 1 && window == required) {
-				count++;
-			}
-		}
-		return count;
-	}
+    int search(string &p, string &s) {
+        // code here
+        int ans =0 ;
+        vector<int> freq1(26, 0), freq2(26, 0);
+        int n = p.size();
+        for(auto& ch: p) freq2[ch-'a']++;
+        for(int i=0; i<s.size(); i++){
+            freq1[s[i] - 'a']++;
+            if(i>=n) freq1[s[i-n] - 'a']--;
+            if(freq1 == freq2) ans++;
+        }
+        return ans;
+    }
 };
-
 
 // Question: Count Occurrences of Anagrams
 // Summary: Count the substrings of a text that are anagrams of a given pattern.

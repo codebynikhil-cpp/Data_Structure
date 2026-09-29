@@ -5,23 +5,19 @@ using namespace std;
 
 class Solution {
   public:
-	long long maximumSumSubarray(int k, vector<int> &arr, int n) {
-		long long windowSum = 0;
-		long long bestSum = LLONG_MIN;
-
-		for (int i = 0; i < n; i++) {
-			windowSum += arr[i];
-			if (i >= k) {
-				windowSum -= arr[i - k];
-			}
-			if (i >= k - 1) {
-				bestSum = max(bestSum, windowSum);
-			}
-		}
-		return bestSum;
-	}
+    int maxSubarraySum(vector<int>& arr, int k) {
+        // code here
+        int n = arr.size();
+        int sum = 0;
+        for(int i=0; i<k; i++) sum += arr[i];
+        int maxSum = sum;
+        for(int i=k; i<n; i++){
+            sum += arr[i] - arr[i-k];
+            maxSum = max(maxSum, sum);
+        }
+        return maxSum;
+    }
 };
-
 
 // Question: Maximum Sum Subarray of Size K
 // Summary: Find the largest sum among all contiguous subarrays of exactly k elements.

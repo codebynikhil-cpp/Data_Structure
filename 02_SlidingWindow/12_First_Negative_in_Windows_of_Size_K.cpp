@@ -2,26 +2,28 @@
 using namespace std;
 
 // URL: https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1
-
 class Solution {
   public:
-	vector<int> printFirstNegativeInteger(vector<int> &arr, int k) {
-		deque<int> negativeIndices;
-		vector<int> answer;
-
-		for (int i = 0; i < static_cast<int>(arr.size()); i++) {
-			if (arr[i] < 0) {
-				negativeIndices.push_back(i);
-			}
-			while (!negativeIndices.empty() && negativeIndices.front() <= i - k) {
-				negativeIndices.pop_front();
-			}
-			if (i >= k - 1) {
-				answer.push_back(negativeIndices.empty() ? 0 : arr[negativeIndices.front()]);
-			}
-		}
-		return answer;
-	}
+    vector<int> firstNegInt(vector<int>& arr, int k) {
+        // code here
+        vector<int> negative;
+        vector<int> ans;
+        int n = arr.size();
+        for(int i=0; i<k; i++){
+            if(arr[i] < 0) negative.push_back(arr[i]);
+        }
+        if(!negative.empty()){
+            ans.push_back(negative[0]);
+        }else ans.push_back(0);
+        for(int i=k; i<n; i++){
+            if(arr[i] < 0) negative.push_back(arr[i]);
+            if(arr[i-k] < 0) negative.erase(negative.begin());
+            if(!negative.empty()){
+                ans.push_back(negative[0]);
+            }else ans.push_back(0);
+        }
+        return ans;
+    }
 };
 
 

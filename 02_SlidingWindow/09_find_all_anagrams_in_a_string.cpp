@@ -5,29 +5,18 @@ using namespace std;
 
 class Solution {
 public:
-	vector<int> findAnagrams(string s, string p) {
-		vector<int> answer;
-		if (p.size() > s.size()) {
-			return answer;
-		}
-
-		array<int, 26> required{};
-		array<int, 26> window{};
-		for (char ch : p) {
-			required[ch - 'a']++;
-		}
-
-		for (int i = 0; i < static_cast<int>(s.size()); i++) {
-			window[s[i] - 'a']++;
-			if (i >= static_cast<int>(p.size())) {
-				window[s[i - p.size()] - 'a']--;
-			}
-			if (i >= static_cast<int>(p.size()) - 1 && window == required) {
-				answer.push_back(i - p.size() + 1);
-			}
-		}
-		return answer;
-	}
+    vector<int> findAnagrams(string s, string p) {
+        vector<int> ans;
+        vector<int> freq1(26, 0), freq2(26, 0);
+        int n = p.size();
+        for(auto& ch: p) freq2[ch-'a']++;
+        for(int i=0; i<s.size(); i++){
+            freq1[s[i] - 'a']++;
+            if(i>=n) freq1[s[i-n] - 'a']--;
+            if(freq1 == freq2) ans.push_back(i-n+1);
+        }
+        return ans;
+    }
 };
 
 

@@ -5,28 +5,18 @@ using namespace std;
 
 class Solution {
 public:
-	bool checkInclusion(string s1, string s2) {
-		if (s1.size() > s2.size()) {
-			return false;
-		}
+    bool checkInclusion(string s1, string s2) {
+        if(s1.size() > s2.size()) return false;
+        vector<int> freq1(26, 0), freq2(26, 0);
+        for(auto& ch: s1) freq1[ch - 'a']++;
 
-		array<int, 26> required{};
-		array<int, 26> window{};
-		for (char ch : s1) {
-			required[ch - 'a']++;
-		}
-
-		for (int i = 0; i < static_cast<int>(s2.size()); i++) {
-			window[s2[i] - 'a']++;
-			if (i >= static_cast<int>(s1.size())) {
-				window[s2[i - s1.size()] - 'a']--;
-			}
-			if (i >= static_cast<int>(s1.size()) - 1 && window == required) {
-				return true;
-			}
-		}
-		return false;
-	}
+        for(int i=0; i<s2.size(); i++){
+            freq2[s2[i] - 'a']++;
+            if(i>=s1.size()) freq2[s2[i-s1.size()] - 'a']--;
+            if(freq1 == freq2) return true;
+        }
+        return false;
+    }
 };
 
 

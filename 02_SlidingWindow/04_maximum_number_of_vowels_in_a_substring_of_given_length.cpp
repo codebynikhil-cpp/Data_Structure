@@ -5,24 +5,23 @@ using namespace std;
 
 class Solution {
 public:
-	int maxVowels(string s, int k) {
-		auto isVowel = [](char ch) {
-			return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
-		};
-
-		int vowelCount = 0;
-		int bestCount = 0;
-		for (int i = 0; i < static_cast<int>(s.size()); i++) {
-			vowelCount += isVowel(s[i]);
-			if (i >= k) {
-				vowelCount -= isVowel(s[i - k]);
-			}
-			if (i >= k - 1) {
-				bestCount = max(bestCount, vowelCount);
-			}
-		}
-		return bestCount;
-	}
+    int maxVowels(string s, int k) {
+        int n = s.size();
+        string vowels = "aeiou";
+        int cnt = 0;
+        for(int i=0; i<k; i++){
+            if(vowels.find(s[i]) != string::npos) {
+                cnt++;
+            }
+        }
+        int maxCount = cnt;
+        for(int i=k; i<n; i++){
+            if(vowels.find(s[i-k]) != string:: npos) cnt--;
+            if(vowels.find(s[i]) != string:: npos) cnt++;
+            maxCount = max(maxCount, cnt);
+        }
+        return maxCount;
+    }
 };
 
 
