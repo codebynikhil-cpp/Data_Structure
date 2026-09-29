@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/intersection-of-two-arrays-ii/
 class Solution {
 public:
@@ -21,3 +24,9 @@ public:
         return res;
     }
 };
+// Question: 27 i n t e r s e c t i o n o f t w o a r r a y s i i
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

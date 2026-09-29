@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
 class Solution {
 public:
@@ -17,3 +20,9 @@ public:
         return left == -1 ? 0 : right - left + 1;
     }
 };
+// Question: 30 s h o r t e s t u n s o r t e d c o n t i n u o u s s u b a r r a y
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

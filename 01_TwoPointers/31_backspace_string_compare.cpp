@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/backspace-string-compare/
 class Solution {
 public:
@@ -30,3 +33,9 @@ public:
         return true;
     }
 };
+// Question: 31 b a c k s p a c e s t r i n g c o m p a r e
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

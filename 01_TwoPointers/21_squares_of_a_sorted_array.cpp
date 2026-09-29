@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/squares-of-a-sorted-array/
 
 class Solution {
@@ -18,3 +21,10 @@ public:
         return res;
     }
 };
+
+// Question: 21 s q u a r e s o f a s o r t e d a r r a y
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

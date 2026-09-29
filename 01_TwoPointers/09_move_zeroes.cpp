@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/move-zeroes/
 
 class Solution {
@@ -12,3 +15,9 @@ public:
         }
     }
 };
+// Question: 09 m o v e z e r o e s
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

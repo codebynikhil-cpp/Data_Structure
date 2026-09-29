@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
 
 class Solution {
@@ -23,3 +26,10 @@ class Solution {
         return j==m;
     }
 };
+
+// Question: 24 a r r a y s u b s e t
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

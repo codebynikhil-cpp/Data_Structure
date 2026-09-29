@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/common-elements1132/1
 class Solution {
   public:
@@ -17,3 +20,9 @@ class Solution {
         return res;
     }
 };
+// Question: 29 c o m m o n i n 3 s o r t e d a r r a y s
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

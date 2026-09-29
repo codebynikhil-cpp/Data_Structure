@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/trapping-rain-water/
 
 class Solution {
@@ -19,3 +22,10 @@ public:
         return ans;
     }
 };
+
+// Question: 20 t r a p p i n g r a i n w a t e r
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

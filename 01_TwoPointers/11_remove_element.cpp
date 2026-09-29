@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/remove-element/
 class Solution {
 public:
@@ -11,3 +14,9 @@ public:
         return idx;
     }
 };
+// Question: 11 r e m o v e e l e m e n t
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

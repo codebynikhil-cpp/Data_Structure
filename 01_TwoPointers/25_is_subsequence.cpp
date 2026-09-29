@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/is-subsequence/
 
 class Solution {
@@ -24,3 +27,10 @@ public:
         return dp[n1][n2] == n1;
     }
 };
+
+// Question: 25 i s s u b s e q u e n c e
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

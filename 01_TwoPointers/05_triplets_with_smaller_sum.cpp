@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1
 class Solution {
   public:
@@ -22,3 +25,9 @@ class Solution {
         return ans;
     }
 };
+// Question: 05 t r i p l e t s w i t h s m a l l e r s u m
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

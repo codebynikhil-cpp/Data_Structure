@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/reverse-string/
 class Solution {
 public:
@@ -9,3 +12,9 @@ public:
         }
     }
 };
+// Question: 14 r e v e r s e s t r i n g
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

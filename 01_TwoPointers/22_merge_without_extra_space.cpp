@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1
 
 class Solution {
@@ -18,3 +21,10 @@ class Solution {
         sort(b.begin(), b.end());
     }
 };
+
+// Question: 22 m e r g e w i t h o u t e x t r a s p a c e
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

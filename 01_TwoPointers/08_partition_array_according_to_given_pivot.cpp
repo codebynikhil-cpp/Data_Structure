@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/partition-array-according-to-given-pivot/
 class Solution {
 public:
@@ -19,3 +22,9 @@ public:
         return result; 
     }
 };
+// Question: 08 p a r t i t i o n a r r a y a c c o r d i n g t o g i v e n p i v o t
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

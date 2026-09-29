@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/container-with-most-water/
 class Solution {
 public:
@@ -15,3 +18,10 @@ public:
         return maxWater; 
     }
 };
+
+// Question: 19 c o n t a i n e r w i t h m o s t w a t e r
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

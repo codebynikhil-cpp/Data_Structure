@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/3sum-closest/
 class Solution {
 public:
@@ -27,3 +30,9 @@ public:
         return ressum;
     }
 };
+// Question: 04 3 s u m c l o s e s t
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

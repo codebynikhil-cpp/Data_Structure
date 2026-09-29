@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 class Solution {
 public:
@@ -23,3 +26,9 @@ public:
     //  i
     //  cnt = 0
     //  1
+// Question: 13 r e m o v e d u p l i c a t e s f r o m s o r t e d a r r a y i i
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

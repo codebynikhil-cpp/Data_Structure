@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/perfect-arrays4645/1
 class Solution {
   public:
@@ -11,3 +14,10 @@ class Solution {
         return true;
     }
 };
+
+// Question: 15 p a l i n d r o m e a r r a y
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

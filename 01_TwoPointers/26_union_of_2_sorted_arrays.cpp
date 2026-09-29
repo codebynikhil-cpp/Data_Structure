@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1
 class Solution {
   public:
@@ -32,3 +35,9 @@ class Solution {
         return res;
     }
 };
+// Question: 26 u n i o n o f 2 s o r t e d a r r a y s
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

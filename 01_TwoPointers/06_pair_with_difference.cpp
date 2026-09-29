@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://www.geeksforgeeks.org/problems/find-pair-given-difference1559/1
 
 
@@ -19,3 +22,9 @@ class Solution {
         return false;
     }
 };
+// Question: 06 p a i r w i t h d i f f e r e n c e
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

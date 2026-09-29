@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/sort-colors/
 
 class Solution {
@@ -12,3 +15,10 @@ public:
         }
     }
 };
+
+// Question: 10 s o r t c o l o r s
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+

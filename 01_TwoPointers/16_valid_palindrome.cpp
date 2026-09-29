@@ -1,3 +1,6 @@
+﻿#include <bits/stdc++.h>
+using namespace std;
+
 // URL: https://leetcode.com/problems/valid-palindrome/
 class Solution {
 public:
@@ -13,3 +16,9 @@ public:
         return true;
     }
 };
+// Question: 16 v a l i d p a l i n d r o m e
+// Example: 
+// Input: [sample input]
+// Output: [expected output]
+
+
