@@ -1,4 +1,4 @@
-// URL: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+﻿// URL: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
 #include <unordered_map>
 int kDistinctChars(int k, string &str)
 {
@@ -20,4 +20,10 @@ int kDistinctChars(int k, string &str)
     return res;
 }
 
+
+
+
+// Summary:
+// Find the longest substring containing at most k distinct characters.
+// Example: s = "eceba", k = 2 -> answer is 3 because "ece" or "eba" is valid.
 

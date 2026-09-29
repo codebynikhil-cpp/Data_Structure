@@ -1,4 +1,4 @@
-// URL: https://leetcode.com/problems/fruit-into-baskets/
+﻿// URL: https://leetcode.com/problems/fruit-into-baskets/
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
@@ -19,3 +19,8 @@ public:
         return res;
     }
 };
+
+// Summary:
+// Find the longest subarray containing at most two distinct values.
+// Example: fruits = [1,2,1], answer is 3 because all fruits fit within two baskets.
+

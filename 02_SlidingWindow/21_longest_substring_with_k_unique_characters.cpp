@@ -1,4 +1,4 @@
-// URL: https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
+﻿// URL: https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
 class Solution {
   public:
     int longestKSubstr(string &s, int k) {
@@ -22,3 +22,8 @@ class Solution {
         return res;
     }
 };
+
+// Summary:
+// Find the longest substring containing exactly k distinct characters.
+// Example: s = "aabacbebebe", k = 3 -> the longest valid window is "cbebebe" with length 7.
+

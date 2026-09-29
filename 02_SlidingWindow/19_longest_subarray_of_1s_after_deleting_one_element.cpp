@@ -1,4 +1,4 @@
-// URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+﻿// URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 class Solution {
 public:
     int longestSubarray(vector<int>& nums) {
@@ -17,3 +17,8 @@ public:
         return res;
     }
 };
+
+// Summary:
+// Find the longest subarray with at most one zero after deleting one element.
+// Example: nums = [1,1,1,0,1,1], answer is 5 because you can delete the single zero.
+

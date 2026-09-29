@@ -1,4 +1,4 @@
-// URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
+﻿// URL: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
 class Solution {
 public:
     int maxSubarrayLength(vector<int>& nums, int k) {
@@ -19,3 +19,8 @@ public:
         return res;
     }
 };
+
+// Summary:
+// Find the longest subarray where every value appears at most k times.
+// Example: nums = [1,2,3,1,2,1,2], k = 2 -> answer is 6 because the whole window stays valid.
+
