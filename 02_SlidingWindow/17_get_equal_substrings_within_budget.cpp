@@ -21,8 +21,11 @@ public:
     }
 };
 
-// Summary:
-// Find the longest substring where the total cost to change one string into another is within budget.
-// Example: s = "abcd", t = "acbe", maxCost = 1 -> the longest equal substring is length 4 with cost 1.
+// Question: Get Equal Substrings Within Budget
+// Summary: Find the longest substring that can be changed from s to t without exceeding maxCost.
+// Example:
+// Input: s = "abcd", t = "bcdf", maxCost = 3
+// Output: 3
+// Explanation: Changing "abc" to "bcd" costs 1 + 1 + 1 = 3, while a longer window exceeds the budget.
 
 

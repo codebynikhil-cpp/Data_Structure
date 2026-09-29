@@ -21,8 +21,11 @@ public:
     }
 };
 
-// Summary:
-// Find the longest subarray containing at most k zeros.
-// Example: nums = [1,1,1,0,0,1,1,1], k = 2 -> answer is 8.
+// Question: Max Consecutive Ones III
+// Summary: Find the longest subarray after flipping at most k zeroes to ones.
+// Example:
+// Input: nums = [1, 1, 1, 0, 0, 1, 1, 1], k = 2
+// Output: 8
+// Explanation: Flipping both zeroes makes the entire array equal to 1s.
 
 

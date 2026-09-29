@@ -26,8 +26,11 @@ int kDistinctChars(int k, string &str)
 
 
 
-// Summary:
-// Find the longest substring containing at most k distinct characters.
-// Example: s = "eceba", k = 2 -> answer is 3 because "ece" or "eba" is valid.
+// Question: Longest Substring With At Most K Distinct Characters
+// Summary: Find the longest substring containing no more than k distinct characters.
+// Example:
+// Input: str = "eceba", k = 2
+// Output: 3
+// Explanation: "ece" is the longest valid substring because it contains only e and c.
 
 

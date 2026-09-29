@@ -26,10 +26,9 @@ public:
     }
 };
 
-// Summary:
-// Find the smallest length of a contiguous subarray whose sum is greater than or equal to target.
-// Use a sliding window: expand right to include numbers, and shrink left while the sum is still valid.
+// Question: Minimum Size Subarray Sum
+// Summary: Find the shortest contiguous subarray whose sum is at least target.
 // Example:
-// nums = [2, 3, 1, 2, 4, 3], target = 7
-// Window [2, 3, 1, 2] gives sum = 8, so length = 4.
-// Then [4, 3] gives sum = 7, so the minimum valid subarray length is 2.
+// Input: target = 7, nums = [2, 3, 1, 2, 4, 3]
+// Output: 2
+// Explanation: The subarray [4, 3] has sum 7 and is the shortest valid window.

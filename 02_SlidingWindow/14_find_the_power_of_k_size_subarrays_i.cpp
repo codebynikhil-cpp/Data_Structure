@@ -22,8 +22,11 @@ public:
     }
 };
 
-// Summary:
-// For each window of length k, return the maximum value if the subarray is strictly increasing.
-// Example: nums = [1,2,3,4,5], k = 3 -> [1,2,3] -> 3, [2,3,4] -> 4, [3,4,5] -> 5.
+// Question: Find the Power of K-Size Subarrays I
+// Summary: For each length-k window, return its last value if the values are consecutive and increasing; otherwise return -1.
+// Example:
+// Input: nums = [1, 2, 3, 4, 5], k = 3
+// Output: [3, 4, 5]
+// Explanation: Every window contains consecutive increasing values, so its last value is returned.
 
 

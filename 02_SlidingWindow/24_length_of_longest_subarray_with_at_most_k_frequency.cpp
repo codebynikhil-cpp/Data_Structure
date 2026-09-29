@@ -23,8 +23,11 @@ public:
     }
 };
 
-// Summary:
-// Find the longest subarray where every value appears at most k times.
-// Example: nums = [1,2,3,1,2,1,2], k = 2 -> answer is 6 because the whole window stays valid.
+// Question: Length of Longest Subarray With at Most K Frequency
+// Summary: Find the longest subarray in which every value appears no more than k times.
+// Example:
+// Input: nums = [1, 2, 3, 1, 2, 1, 2], k = 2
+// Output: 5
+// Explanation: [1, 2, 3, 1, 2] is valid, while any length-six window contains a value more than twice.
 
 

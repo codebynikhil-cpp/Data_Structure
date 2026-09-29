@@ -4,8 +4,11 @@ using namespace std;
 // URL: https://leetcode.com/problems/minimum-window-substring/
 
 
-// Summary:
-// Find the smallest substring that contains all characters from string t.
-// Example: s = ADOBECODEBANC, t = ABC -> answer is "BANC".
+// Question: Minimum Window Substring
+// Summary: Find the shortest substring of s containing every character of t with the required frequencies.
+// Example:
+// Input: s = "ADOBECODEBANC", t = "ABC"
+// Output: "BANC"
+// Explanation: "BANC" is the smallest window containing A, B, and C.
 
 

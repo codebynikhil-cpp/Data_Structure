@@ -26,8 +26,11 @@ class Solution {
     }
 };
 
-// Summary:
-// Find the longest substring containing exactly k distinct characters.
-// Example: s = "aabacbebebe", k = 3 -> the longest valid window is "cbebebe" with length 7.
+// Question: Longest Substring With Exactly K Unique Characters
+// Summary: Find the longest substring containing exactly k distinct characters.
+// Example:
+// Input: s = "aabacbebebe", k = 3
+// Output: 7
+// Explanation: "cbebebe" is the longest substring containing exactly a, b, and e.
 
 

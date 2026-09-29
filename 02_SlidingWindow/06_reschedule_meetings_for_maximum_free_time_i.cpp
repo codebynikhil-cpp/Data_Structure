@@ -4,8 +4,11 @@ using namespace std;
 // URL: https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/
 
 
-// Summary:
-// Find the maximum free time after rescheduling meetings without exceeding the given limit.
-// Example: meetings = [1,5],[6,8],[9,10], start = 0, end = 10, duration = 2 -> free time can be increased to 3 units.
+// Question: Reschedule Meetings for Maximum Free Time I
+// Summary: Reschedule at most one meeting while keeping meeting durations and order to maximize a free interval.
+// Example:
+// Input: eventTime = 10, startTime = [0, 3, 7], endTime = [1, 4, 8]
+// Output: 4
+// Explanation: Moving the middle meeting can create a continuous free interval of length 4.
 
 

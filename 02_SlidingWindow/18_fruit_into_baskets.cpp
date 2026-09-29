@@ -23,8 +23,11 @@ public:
     }
 };
 
-// Summary:
-// Find the longest subarray containing at most two distinct values.
-// Example: fruits = [1,2,1], answer is 3 because all fruits fit within two baskets.
+// Question: Fruit Into Baskets
+// Summary: Find the longest contiguous subarray containing at most two distinct fruit types.
+// Example:
+// Input: fruits = [1, 2, 1]
+// Output: 3
+// Explanation: The complete array contains only two fruit types, so all three fruits can be collected.
 
 

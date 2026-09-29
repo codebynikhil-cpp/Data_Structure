@@ -4,8 +4,11 @@ using namespace std;
 // URL: https://leetcode.com/problems/longest-repeating-character-replacement/
 
 
-// Summary:
-// Find the longest substring that can be made uniform by replacing at most k characters.
-// Example: s = "AABABBA", k = 1 -> answer is 4 because "ABBA" can become "AAAA" with one change.
+// Question: Longest Repeating Character Replacement
+// Summary: Find the longest substring that can be changed into one repeated character using at most k replacements.
+// Example:
+// Input: s = "AABABBA", k = 1
+// Output: 4
+// Explanation: Replacing one B in "AABA" produces four consecutive A characters.
 
 

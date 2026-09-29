@@ -4,8 +4,11 @@ using namespace std;
 // URL: https://leetcode.com/problems/permutation-in-string/
 
 
-// Summary:
-// Check whether s2 contains a permutation of s1 as a substring.
-// Example: s1 = ab, s2 = eidbaooo -> yes, because "ab" is present as a permutation.
+// Question: Permutation in String
+// Summary: Determine whether s2 contains a substring that is a permutation of s1.
+// Example:
+// Input: s1 = "ab", s2 = "eidbaooo"
+// Output: true
+// Explanation: The substring "ba" is a permutation of "ab".
 
 

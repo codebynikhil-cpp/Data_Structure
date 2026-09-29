@@ -23,8 +23,11 @@ public:
     }
 };
 
-// Summary:
-// Find the longest substring with no repeated characters.
-// Example: s = "abcabcbb" -> the answer is 3 because "abc" is the longest unique substring.
+// Question: Longest Substring Without Repeating Characters
+// Summary: Find the length of the longest substring containing no repeated characters.
+// Example:
+// Input: s = "abcabcbb"
+// Output: 3
+// Explanation: "abc" is the longest substring without duplicate characters.
 
 

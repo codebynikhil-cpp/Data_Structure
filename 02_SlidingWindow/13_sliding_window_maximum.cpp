@@ -18,8 +18,11 @@ public:
     }
 };
 
-// Summary:
-// Find the maximum element in every window of size k.
-// Example: nums = [1,3,-1,-3,5,3,6,7], k = 3 -> windows produce [3,3,5,5,6,7].
+// Question: Sliding Window Maximum
+// Summary: Return the maximum value from every contiguous window of size k.
+// Example:
+// Input: nums = [1, 3, -1, -3, 5, 3, 6, 7], k = 3
+// Output: [3, 3, 5, 5, 6, 7]
+// Explanation: A deque keeps the largest candidate at the front for each window.
 
 

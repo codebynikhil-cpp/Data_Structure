@@ -21,8 +21,11 @@ public:
     }
 };
 
-// Summary:
-// Find the longest subarray with at most one zero after deleting one element.
-// Example: nums = [1,1,1,0,1,1], answer is 5 because you can delete the single zero.
+// Question: Longest Subarray of 1s After Deleting One Element
+// Summary: Delete exactly one element and find the longest remaining subarray containing only 1s.
+// Example:
+// Input: nums = [1, 1, 1, 0, 1, 1]
+// Output: 5
+// Explanation: Delete the zero to obtain five consecutive 1s.
 
 

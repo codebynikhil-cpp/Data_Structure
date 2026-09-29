@@ -4,8 +4,11 @@ using namespace std;
 // URL: https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/
 
 
-// Summary:
-// Find the minimum number of swaps needed to make all 1s contiguous in a circular array.
-// Example: nums = [1,0,1,0,1], answer is 1 because one swap can group all 1s together.
+// Question: Minimum Swaps to Group All 1s Together II
+// Summary: Find the minimum swaps needed to place all 1s next to one another in a circular binary array.
+// Example:
+// Input: nums = [1, 0, 1, 0, 1]
+// Output: 1
+// Explanation: Swapping one zero with a one groups the three 1s into one circular window.
 
 
