@@ -1,4 +1,7 @@
-﻿// URL: https://leetcode.com/problems/max-consecutive-ones-iii/
+﻿#include <bits/stdc++.h>
+using namespace std;
+
+// URL: https://leetcode.com/problems/max-consecutive-ones-iii/
 class Solution {
 public:
     int longestOnes(vector<int>& nums, int k) {
@@ -21,4 +24,5 @@ public:
 // Summary:
 // Find the longest subarray containing at most k zeros.
 // Example: nums = [1,1,1,0,0,1,1,1], k = 2 -> answer is 8.
+
 

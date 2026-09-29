@@ -1,4 +1,7 @@
-﻿// URL: https://leetcode.com/problems/fruit-into-baskets/
+﻿#include <bits/stdc++.h>
+using namespace std;
+
+// URL: https://leetcode.com/problems/fruit-into-baskets/
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
@@ -23,4 +26,5 @@ public:
 // Summary:
 // Find the longest subarray containing at most two distinct values.
 // Example: fruits = [1,2,1], answer is 3 because all fruits fit within two baskets.
+
 

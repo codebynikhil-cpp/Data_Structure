@@ -1,4 +1,7 @@
-﻿// URL: https://leetcode.com/problems/get-equal-substrings-within-budget/
+﻿#include <bits/stdc++.h>
+using namespace std;
+
+// URL: https://leetcode.com/problems/get-equal-substrings-within-budget/
 class Solution {
 public:
     int equalSubstring(string s, string t, int maxCost) {
@@ -21,4 +24,5 @@ public:
 // Summary:
 // Find the longest substring where the total cost to change one string into another is within budget.
 // Example: s = "abcd", t = "acbe", maxCost = 1 -> the longest equal substring is length 4 with cost 1.
+
 

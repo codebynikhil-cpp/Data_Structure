@@ -1,4 +1,7 @@
-﻿// URL: https://leetcode.com/problems/sliding-window-maximum/
+﻿#include <bits/stdc++.h>
+using namespace std;
+
+// URL: https://leetcode.com/problems/sliding-window-maximum/
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -18,4 +21,5 @@ public:
 // Summary:
 // Find the maximum element in every window of size k.
 // Example: nums = [1,3,-1,-3,5,3,6,7], k = 3 -> windows produce [3,3,5,5,6,7].
+
 
