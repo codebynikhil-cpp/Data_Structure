@@ -14,10 +14,11 @@ public:
             }
         }
     }
-};
-// Question: 09 m o v e z e r o e s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Move Zeroes
+// Summary: Move all zeroes to the end while keeping non-zero elements in order.
+// Example:
+// Input: nums = [0, 1, 0, 3, 12]
+// Output: [1, 3, 12, 0, 0]
+// Explanation: Non-zero values are shifted left while zeros are pushed to the end.

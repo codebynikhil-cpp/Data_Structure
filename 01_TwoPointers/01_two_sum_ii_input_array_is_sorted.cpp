@@ -15,10 +15,11 @@ public:
         }
         return {};
     }
-};
-// Question: 01 t w o s u m i i i n p u t a r r a y i s s o r t e d
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Two Sum II - Input Array Is Sorted
+// Summary: Find two indices in a sorted array that add up to the target.
+// Example:
+// Input: nums = [2, 7, 11, 15], target = 9
+// Output: [1, 2]
+// Explanation: 2 + 7 = 9, so the valid pair is at indices 1 and 2 (1-indexed).

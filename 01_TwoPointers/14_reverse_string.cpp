@@ -11,10 +11,11 @@ public:
             swap(s[i++], s[j--]);
         }
     }
-};
-// Question: 14 r e v e r s e s t r i n g
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Reverse String
+// Summary: Reverse the characters of a string in place.
+// Example:
+// Input: s = ["h", "e", "l", "l", "o"]
+// Output: ["o", "l", "l", "e", "h"]
+// Explanation: The string is reversed from left to right.

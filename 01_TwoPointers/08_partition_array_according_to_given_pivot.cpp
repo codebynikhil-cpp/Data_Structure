@@ -21,10 +21,11 @@ public:
         // while(left <= right) result[left++] = pivot;
         return result; 
     }
-};
-// Question: 08 p a r t i t i o n a r r a y a c c o r d i n g t o g i v e n p i v o t
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Partition Array According to Given Pivot
+// Summary: Rearrange array such that elements less than pivot come first, then equal, then greater.
+// Example:
+// Input: nums = [9, 12, 5, 10, 14, 3, 10], pivot = 10
+// Output: [9, 5, 3, 10, 10, 12, 14]
+// Explanation: All values smaller than 10 move left, equal values stay in the middle, and larger values move right.

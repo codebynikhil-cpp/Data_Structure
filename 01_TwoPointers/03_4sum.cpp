@@ -30,10 +30,11 @@ public:
         }
         return ans;
     }
-};
-// Question: 03 4 s u m
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: 4Sum
+// Summary: Find all unique quadruplets that sum to the given target.
+// Example:
+// Input: nums = [1, 0, -1, 0, -2, 2], target = 0
+// Output: [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
+// Explanation: These quadruplets all add up to zero.

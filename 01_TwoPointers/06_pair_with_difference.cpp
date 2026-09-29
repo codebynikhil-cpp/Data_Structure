@@ -21,10 +21,11 @@ class Solution {
         }
         return false;
     }
-};
-// Question: 06 p a i r w i t h d i f f e r e n c e
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Pair with Difference
+// Summary: Check whether there exists a pair with the given difference.
+// Example:
+// Input: nums = [5, 10, 3, 2, 100, 9], diff = 3
+// Output: true
+// Explanation: 5 - 2 = 3, so the pair exists.

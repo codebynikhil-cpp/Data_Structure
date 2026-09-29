@@ -20,11 +20,11 @@ class Solution {
         sort(a.begin(), a.end());
         sort(b.begin(), b.end());
     }
-};
+};
 
-// Question: 22 m e r g e w i t h o u t e x t r a s p a c e
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Merge Without Extra Space
+// Summary: Merge two sorted arrays into one sorted array without using extra space.
+// Example:
+// Input: a = [1, 3, 5], b = [2, 4, 6]
+// Output: [1, 2, 3, 4, 5, 6]
+// Explanation: The arrays are merged in sorted order with no extra array.

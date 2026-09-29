@@ -20,10 +20,11 @@ public:
         }
         return res;
     }
-};
-// Question: 07 r e a r r a n g e a r r a y e l e m e n t s b y s i g n
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Rearrange Array Elements by Sign
+// Summary: Rearrange positive and negative numbers alternately while preserving order.
+// Example:
+// Input: nums = [3, 1, -2, -5, 2, -4]
+// Output: [3, -2, 1, -5, 2, -4]
+// Explanation: Positive and negative values are placed alternately in the final arrangement.

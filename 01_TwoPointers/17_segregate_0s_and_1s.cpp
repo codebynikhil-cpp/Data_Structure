@@ -12,11 +12,11 @@ class Solution {
             if(arr[i] == 0) swap(arr[i], arr[idx++]);  
         }
     }
-};
+};
 
-// Question: 17 s e g r e g a t e 0 s a n d 1 s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Segregate 0s and 1s
+// Summary: Arrange all zeros before ones in a binary array.
+// Example:
+// Input: nums = [0, 1, 0, 1, 1, 0]
+// Output: [0, 0, 0, 1, 1, 1]
+// Explanation: All 0s are moved to the front while 1s stay after them.

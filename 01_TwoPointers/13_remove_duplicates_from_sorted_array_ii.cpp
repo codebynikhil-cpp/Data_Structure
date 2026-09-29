@@ -20,15 +20,11 @@ public:
         }
         return idx;
     }
-};
-    // idx
-// 1 1 1 1 1
-    //  i
-    //  cnt = 0
-    //  1
-// Question: 13 r e m o v e d u p l i c a t e s f r o m s o r t e d a r r a y i i
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Remove Duplicates from Sorted Array II
+// Summary: Allow at most two duplicates and keep the first two of each value.
+// Example:
+// Input: nums = [1, 1, 1, 2, 2, 3]
+// Output: [1, 1, 2, 2, 3]
+// Explanation: The valid result keeps at most two copies of each number.

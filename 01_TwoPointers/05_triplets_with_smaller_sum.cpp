@@ -24,10 +24,11 @@ class Solution {
         }
         return ans;
     }
-};
-// Question: 05 t r i p l e t s w i t h s m a l l e r s u m
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Triplets with Smaller Sum
+// Summary: Count triplets whose sum is less than the target.
+// Example:
+// Input: nums = [5, 1, 3, 4, 2], target = 12
+// Output: 4
+// Explanation: Valid triplets are (1, 2, 3), (1, 2, 4), (1, 2, 5), (1, 3, 4).

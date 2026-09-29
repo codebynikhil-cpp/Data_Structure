@@ -15,10 +15,11 @@ public:
         }
         return true;
     }
-};
-// Question: 16 v a l i d p a l i n d r o m e
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Valid Palindrome
+// Summary: Check whether a string is a palindrome ignoring non-alphanumeric characters.
+// Example:
+// Input: s = "A man, a plan, a canal: Panama"
+// Output: true
+// Explanation: Ignoring spaces and punctuation, the string reads the same forward and backward.

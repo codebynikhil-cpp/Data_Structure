@@ -32,10 +32,11 @@ public:
         }
         return true;
     }
-};
-// Question: 31 b a c k s p a c e s t r i n g c o m p a r e
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Backspace String Compare
+// Summary: Compare two strings after applying backspace operations.
+// Example:
+// Input: s = "ab#c", t = "ad#c"
+// Output: true
+// Explanation: Both strings reduce to "ac" after processing backspaces.

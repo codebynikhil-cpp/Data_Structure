@@ -25,10 +25,11 @@ public:
         }
         return ans;
     }
-};
-// Question: 02 3 s u m
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: 3Sum
+// Summary: Find all unique triplets in an array that sum to zero.
+// Example:
+// Input: nums = [-1, 0, 1, 2, -1, -4]
+// Output: [[-1, -1, 2], [-1, 0, 1]]
+// Explanation: These are the only unique triplets whose sum is zero.

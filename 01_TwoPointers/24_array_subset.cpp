@@ -25,11 +25,11 @@ class Solution {
         }
         return j==m;
     }
-};
+};
 
-// Question: 24 a r r a y s u b s e t
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Array Subset of Another Array
+// Summary: Check whether all elements of one array are present in another array.
+// Example:
+// Input: a = [11, 7, 1, 13, 21, 3], b = [11, 3, 7]
+// Output: true
+// Explanation: Every value in b appears in a, so b is a subset of a.

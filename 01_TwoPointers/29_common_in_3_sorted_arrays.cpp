@@ -19,10 +19,11 @@ class Solution {
         }
         return res;
     }
-};
-// Question: 29 c o m m o n i n 3 s o r t e d a r r a y s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Common in 3 Sorted Arrays
+// Summary: Find the common elements present in all three sorted arrays.
+// Example:
+// Input: a = [1, 5, 10], b = [1, 3, 5, 7], c = [1, 5, 9, 10]
+// Output: [1, 5]
+// Explanation: 1 and 5 appear in all three arrays.

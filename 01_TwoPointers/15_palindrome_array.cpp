@@ -13,11 +13,11 @@ class Solution {
         }
         return true;
     }
-};
+};
 
-// Question: 15 p a l i n d r o m e a r r a y
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Palindrome Array
+// Summary: Check whether the array reads the same from both ends.
+// Example:
+// Input: arr = [1, 2, 3, 2, 1]
+// Output: true
+// Explanation: The array is symmetric, so it is a palindrome.

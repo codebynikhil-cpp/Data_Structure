@@ -13,10 +13,11 @@ public:
         }
         return idx;
     }
-};
-// Question: 11 r e m o v e e l e m e n t
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Remove Element
+// Summary: Remove all occurrences of a given value and return the new length.
+// Example:
+// Input: nums = [3, 2, 2, 3], val = 3
+// Output: 2
+// Explanation: After removing 3s, the array becomes [2, 2] with length 2.

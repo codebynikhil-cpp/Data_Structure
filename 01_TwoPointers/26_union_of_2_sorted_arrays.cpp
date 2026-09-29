@@ -34,10 +34,11 @@ class Solution {
         
         return res;
     }
-};
-// Question: 26 u n i o n o f 2 s o r t e d a r r a y s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Union of Two Sorted Arrays
+// Summary: Find the union of two sorted arrays without duplicates.
+// Example:
+// Input: a = [1, 2, 3, 4], b = [2, 4, 6]
+// Output: [1, 2, 3, 4, 6]
+// Explanation: The union contains all distinct values in sorted order.

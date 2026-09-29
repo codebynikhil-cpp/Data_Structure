@@ -23,10 +23,11 @@ public:
         
         return res; 
     }
-};
-// Question: 28 i n t e r s e c t i o n o f t w o a r r a y s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Intersection of Two Arrays
+// Summary: Find the common elements between two arrays without duplicates.
+// Example:
+// Input: nums1 = [4, 9, 5], nums2 = [9, 4, 9, 8, 4]
+// Output: [4, 9]
+// Explanation: The common values are 4 and 9, with duplicates removed.

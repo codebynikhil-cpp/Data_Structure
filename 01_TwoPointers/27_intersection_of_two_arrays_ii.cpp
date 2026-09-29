@@ -23,10 +23,11 @@ public:
         }
         return res;
     }
-};
-// Question: 27 i n t e r s e c t i o n o f t w o a r r a y s i i
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Intersection of Two Arrays II
+// Summary: Return the common elements between two arrays, including duplicates.
+// Example:
+// Input: nums1 = [1, 2, 2, 1], nums2 = [2, 2]
+// Output: [2, 2]
+// Explanation: The intersection includes the repeated matching value twice.

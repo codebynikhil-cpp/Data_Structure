@@ -15,10 +15,11 @@ public:
         }
         while(right >= 0) nums1[last--] = nums2[right--];
     }
-};
-// Question: 23 m e r g e s o r t e d a r r a y
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Merge Sorted Array
+// Summary: Merge two sorted arrays into a single sorted array in-place.
+// Example:
+// Input: nums1 = [1, 2, 3, 0, 0, 0], m = 3, nums2 = [2, 5, 6], n = 3
+// Output: [1, 2, 2, 3, 5, 6]
+// Explanation: The final array is sorted and contains all values from both input arrays.

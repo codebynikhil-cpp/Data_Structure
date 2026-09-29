@@ -16,13 +16,11 @@ class Solution {
         }
         sort(arr.begin()+idx, arr.end());
     }
-};
-//   idx
-//          i
-// //8 12 9 3 24 45 90
-// Question: 18 s e g r e g a t e e v e n a n d o d d n u m b e r s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Segregate Even and Odd Numbers
+// Summary: Put all even numbers before odd numbers.
+// Example:
+// Input: nums = [3, 1, 2, 4, 5, 6]
+// Output: [2, 4, 6, 3, 1, 5]
+// Explanation: Even numbers are grouped on the left side and odd numbers on the right.

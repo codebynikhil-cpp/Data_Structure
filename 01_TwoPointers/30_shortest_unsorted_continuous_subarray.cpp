@@ -19,10 +19,11 @@ public:
         }
         return left == -1 ? 0 : right - left + 1;
     }
-};
-// Question: 30 s h o r t e s t u n s o r t e d c o n t i n u o u s s u b a r r a y
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Shortest Unsorted Continuous Subarray
+// Summary: Find the shortest subarray that, if sorted, would sort the entire array.
+// Example:
+// Input: nums = [2, 6, 4, 8, 10, 9, 15]
+// Output: 5
+// Explanation: Sorting the subarray [6, 4, 8, 10, 9] makes the whole array sorted.

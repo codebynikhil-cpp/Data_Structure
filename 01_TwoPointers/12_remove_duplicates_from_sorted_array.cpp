@@ -13,10 +13,11 @@ public:
         }
         return idx;
     }
-};
-// Question: 12 r e m o v e d u p l i c a t e s f r o m s o r t e d a r r a y
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: Remove Duplicates from Sorted Array
+// Summary: Remove duplicate elements in place and return the length of the unique array.
+// Example:
+// Input: nums = [1, 1, 2]
+// Output: 2
+// Explanation: The array becomes [1, 2] and the unique length is 2.

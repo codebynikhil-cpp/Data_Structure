@@ -17,11 +17,11 @@ public:
         }
         return maxWater; 
     }
-};
+};
 
-// Question: 19 c o n t a i n e r w i t h m o s t w a t e r
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Container With Most Water
+// Summary: Find the maximum area formed by two lines and the x-axis.
+// Example:
+// Input: height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+// Output: 49
+// Explanation: The widest effective pair is height[1] and height[7], giving area 49.

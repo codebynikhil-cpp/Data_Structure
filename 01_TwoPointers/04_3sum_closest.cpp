@@ -29,10 +29,11 @@ public:
         }
         return ressum;
     }
-};
-// Question: 04 3 s u m c l o s e s t
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
+};
 
-
+// Question: 3Sum Closest
+// Summary: Find the triplet with sum closest to the target.
+// Example:
+// Input: nums = [-1, 2, 1, -4], target = 1
+// Output: 2
+// Explanation: The triplet (-1, 2, 1) sums to 2, which is closest to 1.

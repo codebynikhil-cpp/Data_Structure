@@ -20,11 +20,11 @@ public:
         }
         return res;
     }
-};
+};
 
-// Question: 21 s q u a r e s o f a s o r t e d a r r a y
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Squares of a Sorted Array
+// Summary: Return a sorted array of squares from a sorted input array.
+// Example:
+// Input: nums = [-4, -1, 0, 3, 10]
+// Output: [0, 1, 9, 16, 100]
+// Explanation: Each number is squared and the result is sorted.

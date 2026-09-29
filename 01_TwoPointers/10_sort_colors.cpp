@@ -14,11 +14,11 @@ public:
             else swap(arr[mid], arr[high--]);
         }
     }
-};
+};
 
-// Question: 10 s o r t c o l o r s
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Sort Colors
+// Summary: Sort the array containing only 0, 1, and 2.
+// Example:
+// Input: nums = [2, 0, 2, 1, 1, 0]
+// Output: [0, 0, 1, 1, 2, 2]
+// Explanation: The array is grouped by color value in ascending order.

@@ -26,11 +26,11 @@ public:
 
         return dp[n1][n2] == n1;
     }
-};
+};
 
-// Question: 25 i s s u b s e q u e n c e
-// Example: 
-// Input: [sample input]
-// Output: [expected output]
-
-
+// Question: Is Subsequence
+// Summary: Check whether the second string is a subsequence of the first.
+// Example:
+// Input: s = "abc", t = "ahbgdc"
+// Output: true
+// Explanation: "abc" is a subsequence of "ahbgdc".
