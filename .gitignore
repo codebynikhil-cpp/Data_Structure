@@ -1,0 +1,45 @@
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+
+# Build folders
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency files
+*.a
+*.lib
+*.jar
+
+# C++ generated files
+*.gch
+*.pch
+
+# Local environment files
+.env
